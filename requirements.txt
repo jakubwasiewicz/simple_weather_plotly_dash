@@ -1,0 +1,4 @@
+pandas
+requests
+dash #plotly is in dash package
+dash_bootstrap_components
