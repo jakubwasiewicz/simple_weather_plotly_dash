@@ -143,7 +143,7 @@ def update_graph(option_slctd): #returning output & graph modifications
     wind_city.update_xaxes(dtick= 2)
     #humidity and preassure table 
     table = dff[['time_hour', 'pressure_mb','humidity', 'cloud']]
-    table.columns = ['Hour', 'Pressure [mb]', 'Humidity[%]', 'Cluds on sky [%]']
+    table.columns = ['Hour', 'Pressure [mb]', 'Humidity[%]', 'Clouds on sky [%]']
     table_city = ff.create_table(table, height_constant=15)
     table_city.update_layout(width=600, font_family='Arial', template = 'plotly_white')
 
