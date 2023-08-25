@@ -1,10 +1,5 @@
 # Dashboard: Weather in main cities in Poland
 
-<aside>
-❗ The dashboard is only available in Polish at this point.
-
-</aside>
-
 # Generic
 
 [Link to python script](app.py)
